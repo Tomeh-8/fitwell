@@ -7,10 +7,12 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className = "App">
+      <BrowserRouter>
        <Navbar/>
        <Home/>
-    </BrowserRouter>
+     </BrowserRouter>
+    </div>
   );
 }
 
